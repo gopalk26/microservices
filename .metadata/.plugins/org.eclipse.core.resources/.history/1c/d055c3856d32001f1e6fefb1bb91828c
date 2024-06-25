@@ -1,0 +1,36 @@
+server:
+  port: 5555
+
+spring:
+  application:
+    name: API-Gateway
+
+  cloud:
+    gateway:
+      routes:
+      - id: WELCOME-API
+        uri: lb://welcome-api
+        predicates:
+        - Path=/api/v1/**
+        
+    
+      - id: GREETAPI_FEIGNCLIENT
+        uri: lb://greetApi-feignClient
+        predicates:
+        - Path=/greet,/greet2
+      
+      
+      
+      - id: notication-service
+        uri: lb://notication-service
+        predicates:
+        - Path=/notification/api/v1/**
+        
+        
+    
+        
+        
+      
+      
+  main:
+    web-application-type: reactive

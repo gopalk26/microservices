@@ -1,0 +1,21 @@
+server:
+  port: 5555
+
+spring:
+  application:
+    name: API-Gateway
+
+  cloud:
+    gateway:
+      routes:
+      - id: WELCOME-API
+        uri: lb://welcome-api
+        predicates:
+        - Path=/welcome
+
+      - id: GREETAPI_FEIGNCLIENT
+        uri: lb://greetApi-feignClient
+        predicates:
+        - Path=/greet
+  main:
+    web-application-type: reactive

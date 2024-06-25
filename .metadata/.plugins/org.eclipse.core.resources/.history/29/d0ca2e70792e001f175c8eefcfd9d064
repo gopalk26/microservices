@@ -1,0 +1,5 @@
+package com.demoSpringData.controller;
+
+public class UserController {
+
+}

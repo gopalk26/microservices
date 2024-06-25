@@ -1,0 +1,4 @@
+spring.application.name=api_gateWay
+
+
+server.port =4444

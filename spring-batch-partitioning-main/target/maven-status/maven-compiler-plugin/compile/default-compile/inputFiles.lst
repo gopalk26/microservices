@@ -1,0 +1,8 @@
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\controller\JobController.java
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\BatchProcessingDemoApplication.java
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\repository\CustomerRepository.java
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\config\CustomerProcessor.java
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\config\CustomerWriter.java
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\entity\Customer.java
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\partition\ColumnRangePartitioner.java
+E:\SpringBatch\spring-batch-partitioning-main\src\main\java\com\javatechie\spring\batch\config\SpringBatchConfig.java
